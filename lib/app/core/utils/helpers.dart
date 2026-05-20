@@ -1,0 +1,3 @@
+class Helpers {
+  // Utility functions
+}

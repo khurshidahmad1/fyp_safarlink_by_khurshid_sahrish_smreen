@@ -1,0 +1,3 @@
+class OsrmProvider {
+  // OSRM interactions
+}
