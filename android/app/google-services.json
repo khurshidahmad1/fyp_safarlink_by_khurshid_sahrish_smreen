@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366508337156",
+    "firebase_url": "https://safarlink-dd4d3-default-rtdb.firebaseio.com",
+    "project_id": "safarlink-dd4d3",
+    "storage_bucket": "safarlink-dd4d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366508337156:android:219112bff84b875c9bed51",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366508337156-s0ur79kfprnv7bs57o4bk80aubqdhnmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0nPoJGoxFpnlWcv2WUm_cwYNU6k2iKHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366508337156-s0ur79kfprnv7bs57o4bk80aubqdhnmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

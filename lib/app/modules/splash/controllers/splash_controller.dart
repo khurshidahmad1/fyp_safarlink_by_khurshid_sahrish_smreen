@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-import '../../../routes/app_routes.dart';
+import '../../../services/auth_service.dart';
+import '../../../services/permission_service.dart';
 
 class SplashController extends GetxController {
   @override
@@ -10,6 +11,12 @@ class SplashController extends GetxController {
 
   void _navigateToNext() async {
     await Future.delayed(const Duration(seconds: 3));
-    Get.offAllNamed(AppRoutes.AUTH);
+
+    // Request runtime permissions before proceeding
+    final permissionService = Get.put(PermissionService());
+    await permissionService.requestAppPermissions();
+
+    final authService = Get.find<AuthService>();
+    await authService.handleAuthRedirect();
   }
 }
